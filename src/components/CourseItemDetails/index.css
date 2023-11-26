@@ -1,0 +1,48 @@
+.CourseDetailsContainer {
+  height: 85vh;
+  padding: 40px;
+}
+
+.LanguageCard {
+  display: flex;
+  min-height: 300px;
+  box-shadow: 1px 1px #bfbfbf;
+  border-radius: 5px;
+  height: 300px;
+  border: none;
+}
+
+.LangImage {
+  height: 100%;
+}
+
+.DetailsContainer {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.LangHeading {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 24px;
+  margin: 0;
+}
+
+.Description {
+  line-height: 1.5;
+  color: #475569;
+  font-family: 'roboto';
+  font-weight: 400;
+  margin: 0;
+  overflow: auto;
+}
+
+.LoaderContainer {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}

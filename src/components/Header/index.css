@@ -1,0 +1,14 @@
+.HeaderContainer {
+  height: 60px;
+  background-color: #f1f5f9;
+  padding: 10px 40px;
+}
+
+.NavLink {
+  text-decoration: none;
+}
+
+.WebsiteLogoImage {
+  width: 120px;
+  cursor: pointer;
+}

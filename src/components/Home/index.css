@@ -1,0 +1,50 @@
+.HomeContainer {
+  padding: 40px;
+  min-height: 89vh;
+}
+.CoursesHeading {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.CoursesContainer {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.LinkItem {
+  color: #1e293b;
+  text-decoration: none;
+}
+
+.TechLanguageContainer {
+  display: flex;
+  align-items: center;
+  width: 160px;
+  margin: 20px 0px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.LanguageImage {
+  width: 40px;
+}
+
+.LanguageName {
+  color: #1e293b;
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.LoaderContainer {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
